@@ -9,7 +9,7 @@ event.on('pickup', payload => {
     event.emit('in-transit', payload);
   }, 2000);
   setTimeout(() => {
-    console.log(`DRIVER: delivered up${payload.orderID}`);
+    console.log(`DRIVER: delivered up ${payload.orderID}`);
     event.emit('delivered', payload);
   }, 5000);
 });
