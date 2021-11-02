@@ -1,0 +1,24 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "By Harvey Lucas and Roop Hayer",
+  "main": "driver.js",
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripppdx/caps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tripppdx/caps/issues"
+  },
+  "homepage": "https://github.com/tripppdx/caps#readme",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "jest": "^27.3.1"
+  }
+}
