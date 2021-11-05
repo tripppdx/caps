@@ -2,11 +2,18 @@
 
 Created by Harvey Lucas and Roop Hayer
 
+## Usage
+
+This project runs from the command line. After following the Installation instructions below, issue the following command in the project root diretory:
+
+`node index.js`
+
+New pickups are generated at two second intervals.
+
 ## Installation
 
 ```plaintext
-> npm init -y
-> npm install faker
+> npm install faker jest
 ```
 
 ## Summary of Problem Domain
